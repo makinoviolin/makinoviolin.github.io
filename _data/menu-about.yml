@@ -1,0 +1,10 @@
+# https://jekyllrb.com/tutorials/navigation/
+docs_list_title: 教室について
+docs:
+
+- title: 指導者のご挨拶
+  url: sensei.html
+- title: 牧野教室の理念
+  url: philosophy.html
+- title: 生徒さんの親の声
+  url: parentsview.html

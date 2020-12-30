@@ -1,0 +1,10 @@
+# https://jekyllrb.com/tutorials/navigation/
+docs_list_title: 教室のいろいろ
+docs:
+
+- title: 教室の年間行事
+  url: events.html
+- title: よくある質問 Q&A
+  url: faq.html
+- title: 会員ページ
+  url: https://members.makinoviolin.jp/

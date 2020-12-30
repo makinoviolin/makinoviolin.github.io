@@ -1,0 +1,12 @@
+<!-- include block 'indexintro4' starts here -->
+<div class="style-indexintro d-table">
+	<div class="container align-middle d-table-cell">
+		<p class="style-sanserif">月曜日〜土曜日のレッスンや、全生徒が月1回集まる合奏レッスン、年1回の発表会、ハロウィンやクリスマスなどのイベントへのご見学に気軽にお越しください。</p>
+		<p class="style-sanserif">今後のイベントは以下の通りです。<br>
+		見学ご希望の方はこちらよりお問い合わせください。</p>
+		{% for event in site.data.kengakuevents %}
+			<p class="style-sanserif"><span class="style-datebadge">{{ event.date }}</span>{{ event.name }}</p>
+		{% endfor %}
+	</div>
+</div>
+<!-- include block 'indexintro4' ends here -->

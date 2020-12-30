@@ -1,0 +1,255 @@
+/* Global styles */
+html {
+        scroll-behavior: smooth
+}
+body {
+        font-family: 'Noto Serif JP', serif;
+        background: url(/assets/img/emptychairs-blur.jpg) fixed;
+        background-size: cover;
+        /* background-image: linear-gradient(to bottom right, #411b08, #471505); */ /* took two color-picked colors from Stradivarius image at https://cryptovest.com/news/mattereum-tokenizes-9m-stradivarius-violin/ */
+        /* scroll-snap-type: y proximity; */ /* from https://css-tricks.com/practical-css-scroll-snapping/ */
+}
+
+h1 {
+        font-size: 2rem;
+}
+
+h2 {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+}
+
+h3 {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+}
+
+h2.style-nomargin {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+}
+
+p {
+        margin-bottom: 2rem;
+        font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+        max-width: 100%;
+}
+
+/* Navbar */
+.navbar {
+        background: rgba(0,0,0,0.5);
+        text-shadow: 0 0 5px #111;
+}
+
+.navbar-brand {
+        font-family: 'Rouge Script', cursive;
+        font-size: 2rem;
+        line-height: 0;
+}
+
+.navbar-brand svg {
+        width: 200px;
+}
+path {
+        fill: #fff;
+}
+
+.st0 {
+        fill: none;
+}
+
+/* Index page heroes */
+.style-header-lede {
+        text-align: center;
+}
+
+span.lead {
+        font-size: 1rem;
+}
+
+.style-indexheader {
+        height:100vh;
+        width:100%;
+        color:#eee;
+        text-shadow: 0 0 30px #000,0 0 30px #000,0 0 30px #000,0 0 30px #000;
+        /* background-color: rgba(0, 0, 0, 0.5); doesn't work on mobile, why */
+        /* scroll-snap-align: start; */
+}
+
+.style-indexhero {
+        height:100vh;
+        width:100%;
+        color:#eee;
+        text-shadow: 0 0 30px #000,0 0 30px #000,0 0 30px #000,0 0 30px #000;
+        box-shadow:0 0 20px #000 inset;
+}
+
+#index0 {
+        background-image: url('/assets/img/emptychairs-1080.jpg');
+}
+
+#index1 {
+        background-image:url("/assets/img/lesson-1080.jpg");
+}
+
+#index2 {
+        background-image:url("/assets/img/hands-1080.jpg")
+}
+
+#index3 {
+        background-image:url("/assets/img/gasso-1080.jpg")
+}
+
+#index4 {
+        background-image:url("/assets/img/concert-1080.jpg")
+}
+
+.style-indexintro {
+        width:100%;
+        color:#eee;
+        font-size:18px;
+        /* background-color: #3f1d13; */
+        height: 60vh;
+}
+
+.style-sanserif {
+        font-family: 'Noto Serif JP', serif;
+}
+
+/* Footer */
+footer {
+        border-top: solid 10px #411b08;
+        background-color: rgba(238,238,238,0.7);
+}
+
+footer nav a {
+        background: rgba(234,234,234,0.6);
+        border-bottom: solid 1px #e0e0e0;
+        margin-bottom: 5px;
+}
+
+.style-page-hero {
+        height:50vh;
+        width:100%;
+        color:#eee;
+        text-shadow: 0 0 30px #000,0 0 30px #000,0 0 30px #000,0 0 30px #000;
+        box-shadow:0 0 20px #000 inset;
+}
+
+.style-content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color: #eee;
+}
+
+.style-datebadge {
+        background-color: rgba(74, 32, 32, 0.6);
+        padding: .2em .4em;
+        margin-right: .4em;
+        border-radius: .25em;
+        box-shadow: 0 0 10px #000 inset;
+}
+
+.style-footermenu {
+        border-radius: 2rem;
+}
+
+/* Cards, currently only used on members/index.html */
+.style-card {
+        background-color:#3f1d13;
+}
+
+/* Table text color, currently only used on members/calendar.html */
+.style-table {
+        /* color: #eee; */
+        background-color: rgba(65, 27, 8, 0.25);
+}
+th,td {
+        vertical-align: middle !important;
+}
+
+/* for quick-and-dirty students/caltest.html */
+div.style-calendar-column {
+        color: #eee;
+        width: 14%;
+}
+
+@media (max-width: 575.98px) {
+        div.style-calendar-dow {
+                display: none;
+        }
+        div.style-calendar-placeholder {
+                display: none;
+        }
+        div.style-calendar-column {
+                width: 100%;
+        }
+}
+
+div.style-calendar-header {
+        border: 1px solid #555;
+        background-color:rgba(65, 27, 8, 0.25);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-weight: bold;
+}
+
+div.style-calendar-body {
+        border: 1px solid #555;
+        background-color: rgba(255,255,255,0.1);
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        height: 130px;
+}
+
+div.style-calendar-nolesson {
+        background-color: rgba(0,0,0,0.2);
+}
+
+div.style-calendar-date {
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #555;
+        padding-bottom: 5px;
+}
+
+span.style-calendar-date {
+        font-weight: bold;
+}
+
+div.style-calendar-content {
+        margin-top: 5px;
+        width:100%;
+        text-align:left;
+}
+
+span.style-calendar-nolesson {
+        text-align: right;
+}
+
+span.style-calendar-sunday {
+        color: #ff5a5a;
+}
+
+/* Jarallax https://github.com/nk-o/jarallax */
+.jarallax {
+        position: relative;
+        z-index: 0;
+}
+.jarallax > .jarallax-img {
+        position: absolute;
+        object-fit: cover;
+        /* support for plugin https://github.com/bfred-it/object-fit-images */
+        font-family: 'object-fit: cover;';
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+}

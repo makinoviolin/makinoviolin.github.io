@@ -1,0 +1,34 @@
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <a class="navbar-brand" href="/">
+    {% include logo-new.html %}
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <ul class="navbar-nav collapse justify-content-end navbar-collapse" id="navbarNav">
+                {% comment %} <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">教室について</a>
+                        <div class="dropdown-menu">
+                                {% for item in site.data.menu-about.docs %}
+                                <a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a>
+                                {% endfor %}
+                        </div>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">教室のいろいろ</a>
+                        <div class="dropdown-menu">
+                                {% for item in site.data.menu-iroiro.docs %}
+                                <a class="dropdown-item" href="{{ item.url }}">{{ item.title }}</a>
+                                {% endfor %}
+                        </div>
+                </li> {% endcomment %}
+                <li class="nav-item">
+                        <a class="nav-link" href="#footermenu">メニュー</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#footercontactformpagelink">お問い合わせ</a>
+                </li>
+        </ul>
+  </div>
+</nav>

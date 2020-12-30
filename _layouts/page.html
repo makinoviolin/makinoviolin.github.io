@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="ja">
+        {% include head.html %}
+        <body id="top">
+                {% include navbar.html %}
+                <!-- header jumbotron -->
+                <div data-jarallax class="jarallax style-page-hero d-table" style="background-image: url('{{ site.baseurl }}{{ page.hero }}');" id="intro">
+                        <div class="style-header-lede align-middle d-table-cell">
+                                <h1>{{ page.title }}</h1>
+                        </div>
+                </div>
+                <div class="container style-content">
+                      {{ content }}  
+                </div>
+                {% include footer.html %}
+                {% include js.html %}
+        </body>
+</html>

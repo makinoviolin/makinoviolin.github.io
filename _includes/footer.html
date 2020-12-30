@@ -1,0 +1,44 @@
+<!-- include block 'footer' starts here -->
+<footer class="pt-5">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 id="footercontactformpagelink">見学、その他お問い合わせ</h2>
+			</div>
+			<div class="col-md-7 col-lg-8">
+				<p>ご質問や見学のご希望など、お気軽にお問い合わせください。牧野、または担当よりお電話かメールにてご連絡いたします。</p>
+			</div>
+			<div class="col-md-5 col-lg-4">
+				<a type="button" class="btn btn-lg btn-block btn-primary mb-5" href="{{ site.baseurl }}/contact.html">お問い合わせフォーム</a>
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="mb-5 col-md-6 col-lg-4">
+				<h2 id="footermenu">{{ site.data.menu-about.docs_list_title }}</h2>
+				<nav class="nav flex-column">
+				   {% for item in site.data.menu-about.docs %}
+				      <a class="nav-item nav-link style-footermenu" href="{{ item.url }}">{{ item.title }}</a>
+				   {% endfor %}
+				</nav>
+			</div>
+			<div class="mb-5 col-md-6 col-lg-4">
+				<h2>{{ site.data.menu-iroiro.docs_list_title }}</h2>
+				<nav class="nav flex-column">
+				   {% for item in site.data.menu-iroiro.docs %}
+				      <a class="nav-item nav-link style-footermenu" href="{{ item.url }}">{{ item.title }}</a>
+				   {% endfor %}
+				</nav>
+			</div>
+			<div class="mt-5 mb-5 col-lg-4 text-center" style="height: 250px;"><img src="/assets/img/children.png" width=295 height=250 alt="Children playing violin">
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-12 mt-5 mb-5">
+				<small>&copy; 2013~2020 Makino Violin School. All rights reserved.</small>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- include block 'footer' ends here -->

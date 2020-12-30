@@ -1,0 +1,56 @@
+<!-- include block 'head' starts here -->
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        {% if jekyll.environment == "production" %}
+        {% include googleanalytics.html %}
+        {% include clicky.html %}
+        {% endif %}
+        
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <meta name="description" content="スズキメソード 牧野ヴァイオリン教室は横浜駅西口から徒歩7分にあるヴァイオリン教室です。3歳児～大人まで随時募集中。" />
+        <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!-- Font Awesome, as a JS kit in head, rather than near the bottom of the document -->
+        <script src="https://kit.fontawesome.com/90e84c8a95.js" crossorigin="anonymous"></script>
+        
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Rouge+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+        
+        <!-- Local stylesheet at bottom to raise priority for overwriting imported Bootstrap styles -->
+        <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+	{% if page.includecss == "timeline" %}
+	<!-- For the timeline in events.md -->
+	<link rel="stylesheet" href="{{ "/assets/timeline.css" | relative_url }}">
+	{% endif %}
+	
+        <!-- favicon -->
+        {% comment %}<link rel="icon" type="image/png" href="{{ "/assets/favicon.png" | relative_url }}">
+        <link rel="apple-touch-icon" sizes="167x167" href="{{ "/assets/apple-touch-icon-ipad-retina.png" | relative_url }}">{% endcomment %}
+        
+        <link rel="icon" href="/assets/favicon-32.png" sizes="32x32">
+
+        <!-- Android -->
+        <link rel="shortcut icon" sizes="196x196" href="/assets/favicon-196.png">
+
+        <!-- iOS -->
+        <link rel="apple-touch-icon" href="/assets/favicon-152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="/assets/favicon-152.png" sizes="152x152">
+        <link rel="apple-touch-icon" href="/assets/favicon-180.png" sizes="180x180">
+
+        <!-- Jarallax -->
+        <script src="{{ "/assets/jarallax.min.js" | relative_url }}"></script>
+	
+	<!-- Jekyll site and baseurl variables
+	Site URL: {{ site.url }}
+	Base URL: {{ site.baseurl }}
+	for record-keeping purposes -->
+</head>
+<!-- include block 'head' ends here -->
