@@ -2,10 +2,10 @@
 <div class="style-indexintro d-table">
 	<div class="container align-middle d-table-cell">
 		<p class="style-sanserif">月曜日〜土曜日のレッスンや、全生徒が月1回集まる合奏レッスン、年1回の発表会、ハロウィンやクリスマスなどのイベントへのご見学に気軽にお越しください。</p>
-		<p class="style-sanserif">今後のイベントは以下の通りです。<br>
-		見学ご希望の方は<a href="/contact.html">こちらより</a>お問い合わせください。</p>
+		<p class="style-sanserif">今後のイベントは以下の通り予定しております。<br>
+		見学ご希望の方は<a href="/contact.html">こちらより</a>お気軽にお問い合わせください。</p>
 		{% for event in site.data.kengakuevents %}
-			<p class="style-sanserif"><span class="style-datebadge">{{ event.date }}</span>{{ event.name }}</p>
+			<p class="style-sanserif"><span class="style-datebadge">{{ event.date }}</span>{% if event.link %}<a href="{{ event.link }}" class="text-light">{% endif %}{{ event.name }}{% if event.link %}</a>{% endif %}{% if event.badge %}<span class="badge bg-secondary rounded-pill" style="margin-left: 0.4em">{{ event.badge }}</span>{% endif %}</p>
 		{% endfor %}
 	</div>
 </div>
