@@ -2,3 +2,5 @@ title: 牧野ヴァイオリン教室【公式】スズキメソード横浜
 
 plugins:
     - jekyll-sitemap
+
+permalink: /blog/:year/:month/:day/:title:output_ext

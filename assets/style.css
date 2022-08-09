@@ -104,7 +104,8 @@ span.lead {
 }
 
 #index4 {
-        background-image:url("/assets/img/concert-1080.jpg")
+        /* background-image:url("/assets/img/concert-1080.jpg") */
+        background-image:url("/assets/img/concertall-1080-blurred.jpg")
 }
 
 .style-indexintro {
