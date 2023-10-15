@@ -16,8 +16,17 @@ hero: /assets/img/concert-1080.jpg
         <div class="col-md-6">
             <h2>お問い合わせフォーム</h2>
             <p>以下のフォームにお名前、お問い合わせ内容、折り返しのご連絡が可能なメールアドレスおよびお電話番号をご記入ください。<br>
-            入会ご希望の場合、希望者のご年齢やヴァイオリンの経験などを併せてご記入ください。<br>
-            いただいたお問い合わせ内容を確認後、担当者より2～3日中にメールまたはお電話にてご返信いたします。</p>
+            いただいたお問い合わせ内容を確認後、担当者より2～3日中にメールまたはお電話にてご返信いたします。<br>
+            <br>
+            ※ 入会や見学ご希望の場合、希望者のご年齢やヴァイオリンの経験などを併せてご記入ください。<br>
+            <ul>
+              <li>お名前（習いたい方）と保護者氏名</li>
+              <li>ご年齢（習いたい方）</li>
+              <li>ヴァイオリン・その他楽器の経験の有無</li>
+              <li>お電話番号</li>
+              <li>見学希望の曜日と時間帯</li>
+            </ul>
+            </p>
             <script type="text/javascript" src="https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.js"></script>
             <style type="text/css" media="screen, projection">
                 @import url(https://s3.amazonaws.com/assets.freshdesk.com/widget/freshwidget.css); 
