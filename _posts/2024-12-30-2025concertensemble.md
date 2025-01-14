@@ -26,10 +26,15 @@ hero: /assets/img/concertensemble-1080.jpg
 | 会場 | 神奈川県立音楽堂 |
 | 演奏曲 | 曲目①：エルガー作曲「弦楽セレナーデ」<br>曲目②：パッヘルベル作曲「カノン」<br><br>※①の登壇者は②もご参加いただけます |
 | 指揮者 | 有本一記（教室生徒） |
-| 参加条件（応募要項） | 次の3日程のうち2回以上に出席でき、協賛いただけるかた<br><br>＜練習日程＞ 2025年<br>1. 6月15日（日） 18時頃～ 鶴見公会堂（<a href="https://yokohama-tsurumikoukaido.jp/information/access/" target="_blank">アクセス</a>）<br>2. 6月29日（日） 18時頃～ 岩間市民プラザ ホール（<a href="https://www.iwamaplaza.jp/access.html" target="_blank">アクセス</a>）<br>3. 7月13日（日） 18時～ かながわアートホール第1スタジオ(<a href="https://www.kanagawa-arthall.jp/access/" target="_blank">アクセス</a>) |
+| 参加条件（応募要項） | 次の3日程のうち2回以上に出席でき、協賛いただけるかた<br><br>＜練習日程＞ 2025年<br>1. 6月15日（日） 9時～12時 鶴見公会堂（<a href="https://yokohama-tsurumikoukaido.jp/information/access/" target="_blank">アクセス</a>）<br>2. 6月29日（日） 18時頃～ 岩間市民プラザ ホール（<a href="https://www.iwamaplaza.jp/access.html" target="_blank">アクセス</a>）<br>3. 7月13日（日） 18時～ かながわアートホール第1スタジオ(<a href="https://www.kanagawa-arthall.jp/access/" target="_blank">アクセス</a>) |
 | 募集人数 | 曲目①：最大10名まで<br>曲目②：上限なし |
 | 協賛金 | 曲目①：一口五千円４口以上<br>曲目②：一口五千円 １口以上<br><br>【協賛金およびご寄付 お振込み先】<br>横浜銀行 横浜駅前支店（383）<br>普通　6133957<br>牧野ヴァイオリン教室 代表 牧野郁子 |
 {: .table .table-dark .table-striped .table-responsive-md .style-table}
 
 ■お申込み　<a href="https://docs.google.com/forms/d/e/1FAIpQLSfQkizDuYiDjteIr3Pq82uvScpDygS9tPoAwaBIJqxPtGZ1Cg/viewform" target="_blank">参加申し込みフォーム</a><br>
 ■お問合せ　<a href="https://www.makinoviolin.jp/contact.html" target="_blank">https://www.makinoviolin.jp/contact.html</a>
+
+# 当ページ掲載情報の変更履歴
+2024-12-30 ページ公開<br>
+2025-01-12 3回目練習日程の会場・時間を追加<br>
+2025-01-14 1回目練習日程（鶴見公会堂）の時間変更！</span>「18時頃〜」→「9時～12時」
