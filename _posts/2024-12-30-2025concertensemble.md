@@ -5,7 +5,14 @@ hero: /assets/img/concertensemble-1080.jpg
 ---
 
 ## ～第65回発表会　弦楽のおさそい～
-<small>最終更新日：2025年5月2日</small>
+<small>最終更新日：2025年5月13日</small>
+
+<div style="padding: 1.25rem; margin-top: 1.25rem; margin-bottom: 1.25rem; border: 1px solid #a4a6a9; border-left-width: .25rem; border-radius: .25rem;">
+  発表会後に懇親会を実施いたします。<br>
+  ぜひご参加ください。<br><br>
+  <a href="{{ site.baseurl }}/assets/img/2025concert-konshinkai.jpg">懇親会のご案内</a><br>
+  <a href="https://forms.gle/2Lo1LS4odVfyGpF39" target="_blank">懇親会へのご参加応募フォーム</a>
+</div>
 
 牧野ヴァイオリン教室のOB・OGの皆さまへ<br>
 教室生徒とともに、再び牧野ヴァイオリン教室の音を奏でませんか
@@ -100,3 +107,4 @@ hero: /assets/img/concertensemble-1080.jpg
 2025-01-14 <span style="color: red;">1回目練習日程（鶴見公会堂）の時間変更！</span>「18時頃〜」→「9時～12時」<br>
 2025-01-21 曲目①と曲目②の参加条件を分離、および曲目②の参加条件を明記<br>
 2025-05-02 曲目①の募集締切と、曲目②への応募方法の明記
+2025-05-12 懇親会のご案内を追加
