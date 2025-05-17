@@ -10,7 +10,7 @@ hero: /assets/img/concertensemble-1080.jpg
 <div style="padding: 1.25rem; margin-top: 1.25rem; margin-bottom: 1.25rem; border: 1px solid #a4a6a9; border-left-width: .25rem; border-radius: .25rem;">
   発表会後に懇親会を実施いたします。<br>
   ぜひご参加ください。<br><br>
-  <a href="{{ site.baseurl }}/assets/img/2025concert-konshinkai.jpg">懇親会のご案内</a><br>
+  <a href="{{ site.baseurl }}/assets/img/2025concert-konshinkai2.jpg">懇親会のご案内</a><br>
   <a href="https://forms.gle/2Lo1LS4odVfyGpF39" target="_blank">懇親会へのご参加応募フォーム</a>
 </div>
 
